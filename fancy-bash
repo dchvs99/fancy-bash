@@ -1,0 +1,5 @@
+HOST_COLOR='\e[0;32m\' # green
+USER_HOSTNAME_COLOR='\e[3;33m\' # gold
+PATH_COLOR='\e[3;34m\' # blue
+export PS1="\[$HOST_COLOR][host ☕] \[$USER_HOSTNAME_COLOR]\u@\h:\[$PATH_COLOR]\w$\[\e[3;m\] "
+
